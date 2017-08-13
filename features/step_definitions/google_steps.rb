@@ -20,7 +20,7 @@ Given(/^I follow the cukehub facebook account link$/) do
 end
 
 Given(/^I follow the cukehub domain link$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  @browser.first(link: 'CukeHub').click
 end
 
 Given(/^I am on the google translate page$/) do

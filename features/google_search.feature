@@ -23,4 +23,4 @@ Scenario: I search for the CukeHub domain
   * I am on the google search page
   * I search for "CukeHub"
   * I follow the cukehub domain link
-  * I should be on the "cukehub.com" page
+  * I should be on the "cukehub.org" page
